@@ -1,0 +1,96 @@
+.form-container {
+  float: right;
+  width: 500px;
+  height: 200px;
+  margin: 2px;
+  align-content: center; 
+  }
+  
+  .img-container {
+    float: left;
+    width: 80px      /* set the width of the image container */  
+  }
+  
+  /* Optional: Add some margin or padding to give spacing between elements */
+  .form-container {
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .img-container {
+    margin-left: 40px;
+    margin-top: 60px;
+    opacity: 0.6;
+  }
+  .icon {
+    padding: 7px;
+    background: blue;
+    color: white;
+    min-width: 5px;
+    max-height: 15px;
+    margin: 1.5px;
+
+  }
+      .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;  
+    align-content: center;
+    border: solid;
+  }
+  .input-container {
+    display: flex;
+    margin-bottom: 15px;
+    align-content: center;
+  }
+  
+  .btn {
+    background-color: orange;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 100%;
+    text-align: center;
+  }
+  .btn:hover{
+    opacity: 1;
+  }
+  .btnfiled{
+    width: 100%;
+    height: 1%;
+    background-color: orange;
+    border: 0px white;
+  }
+  
+  .input-address{
+    display: flex;
+    margin-bottom: 15px;
+    align-content: center;
+  }
+  .input-addr{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: solid;
+    margin: 1.5px;
+    text-align: center;
+  }
+  .field{
+    border: solid;
+    border-radius: 10px;
+  }
+  legend{
+    border: 1px solid black ;
+    border-radius: 5px ;
+  }
+textarea{
+  border: solid;
+}
+.input-check{
+  align-items: center;
+  display: flex;
+}

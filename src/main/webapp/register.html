@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+<div class="form-container">
+  <input type="button" class="btnfiled">
+  <form method="post" action="RegisterServlet" class="container">
+    <fieldset class="field">
+      <legend >Register Form</legend>
+    
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="text" placeholder="Username" name="username">
+    </div>
+  
+    <div class="input-container">
+      <i class="fa fa-lock icon"></i>
+      <input class="input-field" type="password" placeholder="Password" name="password">
+    </div>
+          
+    <div class="input-container">
+      <i class="fa fa-envelope icon"></i>
+      <input class="input-field" type="text" placeholder="Email" name="email">
+    </div>
+
+    <div class="input-container">
+        <i  class="fa fa-solid fa-globe icon"></i>Country :  
+        <select  name="country"> 
+        <option>india</option>
+        <option>Afganistan</option>
+        <option>Belgium</option>
+        <option>Calafonia </option>
+        <option>dubai</option>
+        </select>
+    </div>
+
+    <div class="input-container">
+      <i  class="fa fa-solid fa-graduation-cap icon"></i>Qualification :
+      BSc: <input class="input-check" type="checkbox" name="qualification" value="corejava"> 
+      MCA:<input type="checkbox" name="qualification" value="advancejava">
+      MTech:<input type="checkbox" name="qualification" value="spring">
+        </div>
+
+    <div class="input-container">
+     <i class="fa fa-mars-double icon"></i>
+      Male <input type="radio" name="gender" value="Male"> 
+      Female<input type="radio" name="gender" value="Female">
+      Others<input type="radio" name="gender" value="others"> 
+    </div>
+
+    <div class="input-container">
+      <i  class="fa fa-solid fa-laptop icon"></i>Technologies :  
+     <select  name="technologies" size="3" multiple> 
+     <option>Core Java</option>
+     <option>Advance Java</option>
+     <option>Spring</option>
+     <option>SpringBoot</option>
+     <option>MicroServices</option>
+     </select>
+        </div>
+    
+    <div class="input-container">
+      <i class="fa fa-address-card icon"></i>
+      Address:  
+    </div>
+
+    <div class="input-address">
+    <input class="input-addr" type="text" placeholder="Area" name="address">
+    <input class="input-addr" type="text" placeholder="City" name="address"> 
+    <input class="input-addr" type="text" placeholder="State" name="address">
+    <input class="input-addr" type="text" placeholder="Pincode" name="address">
+    </div>
+
+    <div class="input-container">
+    Comments:  <textarea name="comments" cols="50" rows="2"></textarea>
+    </div>
+    <input type="submit" class="btn" value="Register">
+  </fieldset>
+  </form> 
+</div>
+
+<div class="img-container">
+  <img src="register.jpg" alt="Example Image" height="420px">
+</div>
+
+</body>
+</html>

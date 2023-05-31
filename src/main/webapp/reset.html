@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div class="img-container">
+    <img src="reset.jpg" alt="no data"  width="900px" height="600px">
+    </div>
+
+    <div class="form-container">
+    <form method="post" action="ResetServlet">
+        <fieldset>
+            <legend>Reset Password</legend>
+        <div>
+        <h3>Email:</h3>
+         <input class="input-field" type="email" name="email" placeholder="Enter your Email">
+        </div>
+        
+        <div>
+            <h3>New Password:</h3>
+         <input class="input-field" type="password" name="newpassword" placeholder="Enter your Password">
+        </div>
+
+        <div>
+            <h3>Confirm Password: </h3>
+        <input class="input-field" type="password" name="confpassword" placeholder="Enter Confirm Password">
+        </div>
+
+        <div class="btn">
+         <input class="button" type="submit"  > 
+         <input  class="button" type="reset" >  
+        </div>
+    </fieldset>
+    </form>
+    </div>
+</body>
+</html>

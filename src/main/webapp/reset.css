@@ -1,0 +1,50 @@
+
+.img-container{
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.form-container{
+    float: right;
+    align-content: center;
+    min-width: 500px;
+    margin-top: 80px;
+    margin-right: 60px;
+    min-height: 400px;
+}
+legend, fieldset{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+.input-field {
+    width: 90%;
+    padding: 10px;
+    outline: none;  
+    align-content: center;
+    border: solid;
+    margin: 1px;
+    background: linear-gradient(45deg, white ,gray);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+   color: black;
+  }
+  .btn{
+    margin: 10px;
+    text-align: center;
+  }
+body{
+    background: linear-gradient(45deg ,black,white);
+}
+.button{
+    background: linear-gradient(45deg,white, lightyellow);
+    min-width: 100px;
+    border-radius: 5px;
+    min-height: 40px;
+    font-size: medium;
+}
+legend{
+    font-size: 25px;
+}
